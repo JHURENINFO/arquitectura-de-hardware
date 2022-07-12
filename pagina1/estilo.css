@@ -1,0 +1,137 @@
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1, 51, 35); 
+}
+.cab_nav{
+	width: 100%;
+	padding: 20px;
+	text-align: right;
+	position: fixed;
+	top: 0px;		
+	aling-item: center;
+
+}
+.cab_nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 0px;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.cab_nav ul il a{
+	text-decoration: none;
+	color: white;
+}
+#menu ul{
+list-style: none;
+margin:0;
+padding:0;
+}
+#menu #item{
+	float: left;
+	justify-content: center; 
+}
+#menu #item a{
+	background:rgba(112, 128, 144);
+	color: rgba(0, 0, 0);
+	padding: 10px 35px;
+	display: all;
+	font-family: Arial, Helvetica, san ;
+	font-size: 16px;
+	text-decoration: none;
+	opacity: 0.9;
+	
+
+}
+#menu #desple{
+	display: none;
+	position: absolute;
+	min-width: 170px;
+}
+#menu #item:hover #desple{
+	display:block;
+}
+#menu #despleg{
+	display: none;
+	position: absolute;
+	min-width: 10px;
+
+}
+#menu #item:hover #despleg{
+	display: block;
+}
+.nomb_logo{
+	width: 330px;
+	padding: 0px 20px;
+	float: left;
+	position: relative;
+	top: 5%;
+	left: 2%;
+	color: #fff;
+	font-size: 30px;
+}
+.logo_img{
+	width: 80px
+	position: absolute;
+	transform: translateX(-1520%) translateY(-15%);
+}
+.contenedor{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	padding: 25px 10px;
+	border: solid;
+	background-color: rgba(0, 0, 0, 0.3);
+	opacity: 0.8; 
+}
+.titulo_cont{
+	font-size: 40px;
+	text-align: center;
+	padding: 20px 10px;
+	color: #fff;
+
+}
+.parrafo_cont{
+	color: #fff;
+	font-size: 20px;
+	text-align: justify;
+}
+.imagen{
+	position: fixed;
+	min-width: 100%;
+	min-width: 100%;
+	top: 50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+} 
+.foot{
+	background-color: rgba(0,0,0,0.6);
+	margin-top: 41%;
+	width: 100%;
+	padding: 2px 0px;
+	position: relative;  
+}
+.foot_p{
+	color: #fff;
+	text-align: center;
+}
+.marca{
+	background-color: rgba(21, 88, 230, 0.7);
+}
+.titulo{
+	background-color: black;
+	width: 100%;
+	opacity: 0.5;
+	color: white;
+	margin-bottom: -25px;
+}
